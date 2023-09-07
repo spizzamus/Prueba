@@ -1,0 +1,51 @@
+header{
+background-color: rgba(0, 0, 0, 0.486);   
+}
+
+
+/* Selector de etiqueta - Comentario de Css*/
+h1 {
+        background:rgb(97, 204, 138);
+        color: black;
+      }
+      
+/*Para seleccionar cosas específicas usamos ID */
+ #EnlaceDeContacto 
+ {
+ color: rgb(235, 229, 229); 
+ }
+
+ #EnlaceLasagna 
+ {
+   color: rgb(235, 229, 229); 
+   }
+
+ #EnlacePizza
+ {
+   color: rgb(235, 229, 229); 
+   }
+  
+   #morerecetas
+   {
+     color: rgb(235, 229, 229); 
+     }
+ /* Selector por clase*/
+ .oscuro{
+    background: rgb(132, 202, 123);
+    color: black;
+ }
+ .subrayado{ 
+  text-decoration: underline 2px #17c9ff ;
+ }
+
+ body{
+  /* background: #ccc;
+  background-image: url("../img/pizza.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;*/
+
+   background: url("../img/fondo.jpg") no-repeat fixed center;
+   background-size: cover;
+ }

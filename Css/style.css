@@ -1,0 +1,68 @@
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+ 
+   *{box-sizing:border-box;
+   margin: o;
+   padding: 0;
+      }
+body{
+   color:white;
+   font-family: Montserrat,Arial, Helvetica, sans-serif;
+   font-size: 20px;
+
+   /* background: #ccc;
+  background-image: url("../img/pizza.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;*/
+
+   background: url("../img/fondo.jpg") no-repeat fixed center;
+   background-size: cover;
+}
+
+header, footer, nav {
+background-color: rgba(94, 155, 102, 0.486);   
+padding: 15px;
+margin: 16px;
+}
+
+h1{
+  font-size: 2rem; 
+  /* 32px UNO POR UNO, mejor ir al body */
+}
+
+h2{ 
+   font-size: 1.5rem;
+   /* 24px */
+}
+
+p{
+   font-size: 1.3rem;
+   /* 16px */
+}
+
+a{
+   font-size: 1rem;
+   color:rgb(139, 231, 171)
+}
+/*Para seleccionar cosas específicas usamos ID 
+ #EnlaceDeContacto 
+ {
+ color: rgb(235, 229, 229); 
+ }
+
+ #EnlaceLasagna 
+ {
+   color: rgb(235, 229, 229); 
+   }
+
+ #EnlacePizza
+ {
+   color: rgb(235, 229, 229); 
+   }
+  
+   #morerecetas
+   {
+     color: rgb(235, 229, 229); 
+     } */
+
