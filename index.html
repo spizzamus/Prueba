@@ -16,13 +16,33 @@
     
 
 </head>
+<style>
+  .flex{
+    display: flex;
+    /*flex-flow: row wrap;
+    row-gap: 10px;*/
+    justify-content: space-evenly;
+ 
+  }
+  .flex > div {
+    padding: 20px;
+    font-size: 30px;
+  }
+</style>
   <body>
       <header>
         <h1 class="oscuro">Recetas CaC</h1>
         <h2 class="oscuro subrayado">Las mejores comidas - Diseños de autor</h2>
         <!--Diseño de Autor-->
+  
       </header>
+      <div class="flex">
+        <div>Pizza</div>
+        <div>Lasagna</div>
+        <div>Otros</div>
+        <div> light</div>
 
+      </div>  
       <nav>
         <ul>
           <li><a id="EnlacePizza" href="pages/pizza.html">recetadepizza</a></li>

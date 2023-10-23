@@ -20,7 +20,7 @@ body{
    background-size: cover;
 }
 
-header, footer, nav {
+header, footer, nav, div {
 background-color: rgba(94, 155, 102, 0.486);   
 padding: 15px;
 margin: 16px;
